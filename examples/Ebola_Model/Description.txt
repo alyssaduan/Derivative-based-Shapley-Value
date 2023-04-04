@@ -1,0 +1,14 @@
+This is a modified SEIR model for the spread of Ebola in Western Africa. 
+A detailed description of the model is given in Diaz et al. (2018) where the activity score method was used to perform the global sensitivity analysis of the model. 
+
+The SEIR model is a system of seven differential equations which describe the dynamics of disease within a population. 
+We are interested in estimating the basic reproduction number, which is a metric measuring how many new cases of disease each current case causes. 
+Using the steady state solution and the next generation matrix, Diaz et al. (2018) \cite{diaz2018modified} shows that the basic reproduction number $R_0$ is:
+
+$$
+R_0 = \left(\beta_1 + \frac{\beta_2\rho_1\gamma_1}{\omega} + \frac{\beta_3}{\gamma_2}\psi\right)/\left(\gamma_1 + \psi \right).
+$$
+
+The Jupyter notebook provided is based on the example from Paul Constantine.
+
+See more details on: https://github.com/paulcon/as-data-sets/tree/master/Ebola
