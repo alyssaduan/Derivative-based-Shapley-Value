@@ -5,7 +5,7 @@ def DerSHAP(df):
     Output: 
         norm_shap:  normalized DerSHAP values
     Parameters:
-        C: M-by-d matrix, this is the gradient matrix
+        C: d-by-d matrix, this is the gradient matrix
         shap: d-by-1 array, this is the DerSHAP values array
         norm_shap: d-by 1 array, this is the normalized DerSHAP values
     """
