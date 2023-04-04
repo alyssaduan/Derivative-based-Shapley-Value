@@ -1,7 +1,10 @@
-# Description
+# Derivative-based Shapley value for global sensitivity analysis and machine learning explainability(https://arxiv.org/abs/2303.15183)
+## Hui Duan, Giray \"{O}kten
 
+# Description
 DerSHAP is based on the first-order partial derivatives of the underlying function. The computational complexity of the method is linear in dimension (number of features), as opposed to the exponential complexity of other Shapley value approaches in the literature. 
 
+ 
 # Requirements and Dependencies
 
 * [numpy](http://www.numpy.org/)
