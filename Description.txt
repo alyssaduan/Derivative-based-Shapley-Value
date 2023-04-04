@@ -1,0 +1,4 @@
+To apply DerSHAP, the core function is contained in "DerSHAP.py".
+For this function, the input is the gradient vector of function and the output is the normalized DerSHAP values. 
+For the examples we provided, the gradient vector is calculated using finite difference method. 
+Users can use any finite difference method, in our example, we simply call the function from the activesubspace package. For details, see (https://github.com/paulcon/active_subspaces)
