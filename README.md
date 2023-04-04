@@ -1,6 +1,6 @@
 # Description
 
-[DerSHAP]is based on the first-order partial derivatives of the underlying function. The computational complexity of the method is linear in dimension (number of features), as opposed to the exponential complexity of other Shapley value approaches in the literature. 
+[DerSHAP] is based on the first-order partial derivatives of the underlying function. The computational complexity of the method is linear in dimension (number of features), as opposed to the exponential complexity of other Shapley value approaches in the literature. 
 
 # Requirements and Dependencies
 
