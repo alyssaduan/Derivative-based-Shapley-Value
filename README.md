@@ -10,7 +10,7 @@
 
 For the users would like to apply DerSHAP to machine learning examples, 
 
-* [sklearn] (https://scikit-learn.org/stable/)
+* [sklearn](https://scikit-learn.org/stable/)
 
 # Usage
 
