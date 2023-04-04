@@ -1,0 +1,26 @@
+We consider the Human Immunodeficiency Virus (HIV) model in Loudon and Pankavich (2016). 
+The HIV model is described by the following differential equations:
+
+\begin{align*}
+\frac{dT}{dt} &= s_1 + \frac{p_1}{C_1+V}TV - \delta_1T - (K_1V + K_2M_I)T,\\
+\frac{dT_I}{dt} &= \psi(K_1V + K_2M_I)T + \alpha_1T_L-\delta_2T_I-K_3T_ICTL,\\
+\frac{dT_L}{dt} &= (1-\psi)(K_1V+K_2M_I)T-\alpha_1T_L-\delta_3T_L,\\
+\frac{dM}{dt} &= s_2+K_4MV-K_5MV-\delta_4M,\\
+\frac{dM_I}{dt} &= K_5MV-\delta_5M_I-K_6M_ICTL,\\
+\frac{dCTL}{dt} &= s_3 + (K_7T_I+K_8M_I)CTL-\delta_6CTL,\\
+\frac{dV}{dt} &= K_9T_I+K_{10}M_I-K_{11}TV-(K_{12}+K_{13})MV-\delta_7V,
+\end{align*}
+
+where $T(t)$ is the CD4$^+$ T-cell population, $T_I$ is the actively infected T-cell population, 
+$T_L$ represents latently-infected T-cells, $M$ is macrophages, $M_I$ is infected macrophages, 
+$CTL$ is cytotoxic lymphocytes, and $V$ is virions. This model has 27 input parameters 
+
+$$
+{\small \textbf{x}=(s_1, s_2, s_3, p_1, c_1, s_1,K_1, K_2, \cdots, K_{13}, \delta_1,\delta_2, \cdots,\delta_7, \alpha_1, \psi).}
+$$
+
+The output of the model is the T-cell population, $T(t)$. The distributions of the parameters are given in Loudon and Pankavich (2016) \cite{loudon2016}. 
+The authors considered T-cell count at many time points, and used the active subspace method to obtain a reduced model at each time. 
+Here we will fix one particular time, $t=24$ days, and apply the activity scores and DerSHAP to identify the important input parameters.
+
+The Jupyter notebook is based on the example provided by Paul Constantine. See details: https://github.com/paulcon/as-data-sets/tree/master/HIV
