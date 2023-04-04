@@ -1,4 +1,4 @@
-We consider the Human Immunodeficiency Virus (HIV) model in Loudon and Pankavich (2016) \cite{loudon2016}. 
+We consider the Human Immunodeficiency Virus (HIV) model in Loudon and Pankavich (2016).  
 The HIV model is described by the following differential equations:
 \begin{align*}
 \frac{dT}{dt} &= s_1 + \frac{p_1}{C_1+V}TV - \delta_1T - (K_1V + K_2M_I)T,\\
