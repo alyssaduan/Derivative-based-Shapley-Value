@@ -5,7 +5,7 @@
 DerSHAP is based on the first-order partial derivatives of the underlying function. The computational complexity of the method is linear in dimension (number of features), as opposed to the exponential complexity of other Shapley value approaches in the literature. 
 
  
-# Requirements and Dependencies
+# Requirements
 
 * [numpy](http://www.numpy.org/)
 * [scipy](http://www.scipy.org/), >= 0.15.0
