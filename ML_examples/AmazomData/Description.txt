@@ -1,0 +1,6 @@
+The data, which is from Kaggle\footnote{\url{https://www.kaggle.com/code/gcmadhan/amazon-stock-prediction-nn-fbprophet}}, 
+is the Amazon stock price data from Jan. 4, 2010 to Dec 30, 2016, with 1233 observations in total. 
+The training data contains the opening price, closing price, low price, high price and volume of the stock with 863 observations.
+The problem is to estimate the closing price (the target), from the remaining data (the features), using a machine learning algorithm. 
+In the notation of the previous sections, the output of the model, $f(\textbf{x})$, is the closing price, and $\textbf{x}$ is the input features.
+In this example we use a linear regression model to obtain $f(\textbf{x})$, and use the Amazon stock data to train the model. 
