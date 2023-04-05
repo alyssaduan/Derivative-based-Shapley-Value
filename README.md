@@ -26,6 +26,7 @@ The core function is contained in the `DerSHAP.py` file.
 We provide examples for HIV and Ebola models and apply the DerSHAP for sensitivity analysis. 
 
 We also apply DerSHAP to two datasets from machine learning, Amazon stock data and Boston housing data, and compare it with SHAP and KernelSHAP. 
+The links of the datasets are available in the example folder. 
 
 If you have questions or feedback, contact [Hui Duan](hd19g@fsu.edu).
 
