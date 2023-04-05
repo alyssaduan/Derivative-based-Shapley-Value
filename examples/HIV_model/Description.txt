@@ -19,7 +19,7 @@ $$
 {\small \textbf{x}=(s_1, s_2, s_3, p_1, c_1, s_1,K_1, K_2, \cdots, K_{13}, \delta_1,\delta_2, \cdots,\delta_7, \alpha_1, \psi).}
 $$
 
-The output of the model is the T-cell population, $T(t)$. The distributions of the parameters are given in Loudon and Pankavich (2016) \cite{loudon2016}. 
+The output of the model is the T-cell population, $T(t)$. The distributions of the parameters are given in Loudon and Pankavich (2016). 
 The authors considered T-cell count at many time points, and used the active subspace method to obtain a reduced model at each time. 
 Here we will fix one particular time, $t=24$ days, and apply the activity scores and DerSHAP to identify the important input parameters.
 
