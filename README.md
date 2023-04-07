@@ -30,3 +30,5 @@ The links of the datasets are available in the examples folder.
 
 If you have questions or feedback, contact [Hui Duan](hd19g@fsu.edu).
 
+# References
+Duan, H. and Ökten, G., 2023. Derivative-based Shapley value for global sensitivity analysis and machine learning explainability. arXiv preprint arXiv:2303.15183.
