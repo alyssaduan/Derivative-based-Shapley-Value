@@ -1,7 +1,7 @@
 def DerSHAP(df):
     """
     Input: 
-        df:d-by-1 array, this is the gradient vector
+        df: M-by-d matrix, that contains estimated partial derivatives( in our case, approximated by finite difference method)
     Output: 
         norm_shap:  normalized DerSHAP values
     Parameters:
