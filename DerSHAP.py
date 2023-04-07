@@ -1,7 +1,9 @@
 def DerSHAP(df):
     """
     Input: 
-        df: M-by-d matrix, that contains estimated partial derivatives( in our case, approximated by finite difference method)
+        df: M-by-d matrix, that contains estimated partial derivatives(in our case, approximated by finite difference method)
+        M: the number of random samples
+        d: dimension of the inputs
     Output: 
         norm_shap:  normalized DerSHAP values
     Parameters:
